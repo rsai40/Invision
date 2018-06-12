@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/invision_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/filter_results"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:gravity="center|left"
+            android:paddingLeft="@dimen/padding_left"
+            android:text="filter"
+            android:textColor="@color/darkBlack"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/layout_margin15"
+            android:layout_marginTop="@dimen/layout_margin15"
+            android:background="@color/horizontalLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="@color/darkBlack"
+            android:drawableLeft="@drawable/sort_down"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:gravity="center|left"
+            android:paddingLeft="@dimen/padding_left"
+            android:text="sort"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="layout_margin">10dp</dimen>
+    <dimen name="image_size">100dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="drawable_padding">10dip</dimen>
+    <dimen name="layout_margin15">15dp</dimen>
+    <dimen name="layout_margin30">30dp</dimen>
+    <dimen name="padding_left">50dp</dimen>
+</resources>
